@@ -1,9 +1,9 @@
-var player1 = prompt("Player One : Enter Your Name");
+var player1 = prompt("Player One: Enter Your Name");
 console.log("Player One is :- " + player1)
-var player1Color = 'rgb(86, 151, 255)';
-var player2 = prompt("Player Two : Enter Your Name");
+var player1Color = 'rgb(255,255,0)';
+var player2 = prompt("Player Two: Enter Your Name");
 console.log("Player Two is :- " + player2)
-var player2Color = 'rgb(237, 45, 73)';
+var player2Color = 'rgb(173,255,47)';
 var game_on = true;
 var table = $('table tr');
 
@@ -27,8 +27,10 @@ function checkBottom(colIndex) {
         }
     }
 }
-///
 function colorMatchCheck(one, two, three, four) {
     return (one === two && one === three && one === four && one !== 'rgb(128, 128, 128)' && one !== undefined)
 }
 
+function replay() {
+    location.reload()
+}
