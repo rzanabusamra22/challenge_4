@@ -1,0 +1,27 @@
+{
+  "name": "challenge_4",
+  "version": "1.0.0",
+  "description": "challange 4",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rzanabusamra22/challenge_4.git"
+  },
+  "author": "rzan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rzanabusamra22/challenge_4/issues"
+  },
+  "homepage": "https://github.com/rzanabusamra22/challenge_4#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
